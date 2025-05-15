@@ -5,9 +5,9 @@
 #define DHTPIN 4         // GPIO4 (D4)
 #define DHTTYPE DHT11
 
-const char* ssid = "shiva wifi";
-const char* password = "khanalshiva";
-const char* mqtt_server = "192.168.0.100"; // e.g., 192.168.1.100
+const char* ssid = "wifi name";
+const char* password = "password";
+const char* mqtt_server = "broker ip"; // e.g., 192.168.1.100
 
 WiFiClient espClient;
 PubSubClient client(espClient);
