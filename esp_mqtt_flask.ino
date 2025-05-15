@@ -7,7 +7,7 @@
 
 const char* ssid = "wifi name";
 const char* password = "password";
-const char* mqtt_server = "broker ip"; // e.g., 192.168.1.100
+const char* mqtt_server = "broker ip"; // broker ip address 
 
 WiFiClient espClient;
 PubSubClient client(espClient);
