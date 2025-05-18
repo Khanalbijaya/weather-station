@@ -1,5 +1,5 @@
 
-# INTRODUCTIO
+# INTRODUCTION
 
 In this project, ESP32 reads data, with help of dht11 and publishes data to mosquitto or MQTT. our weather station suscribes the data from mosquitto. weather station shows temperature and humidity and their graphs.
 
